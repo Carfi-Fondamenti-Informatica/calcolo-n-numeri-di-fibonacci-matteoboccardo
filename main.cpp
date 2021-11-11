@@ -8,9 +8,9 @@ int main() {
     if(n>=2){
         for(int i=2;i<=n;i++){;
             risultato=precedente+successivo;
-                    cout<<risultato<<endl;
-                    precedente=successivo;
-                    successivo=risultato;
+            cout<<risultato<<endl;
+            precedente=successivo;
+            successivo=risultato;
         }
     }
    return 0;
