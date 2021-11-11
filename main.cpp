@@ -6,7 +6,7 @@ int main() {
     precedente=i;
     cin>>n;
     cout<<1<<endl;
-    for (int i = 1; i <=n ; i++) {
+    for (int i = 2; i <=n ; i++) {
         risultato = precedente + successivo;
         precedente = successivo, successivo = risultato;
         if (risultato <= n) {
